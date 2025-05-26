@@ -15,7 +15,7 @@ import feedparser
 from keybert import KeyBERT
 from collections import Counter
 
-st.title("🌴 마케팅 키워드 자동 추출기")
+st.title("검색 키워드 자동 추출기🔍")
 st.write("Google 뉴스 기사 기반으로 입력한 키워드 관련 뉴스를 분석하고, 자주 등장하는 핵심 키워드를 추출합니다.")
 
 query = st.text_input("🔍 검색 키워드 입력 (예: miami, sunscreen, summer)", "miami")
